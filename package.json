@@ -1,0 +1,18 @@
+{
+  "name": "insecure-session-management",
+  "version": "1.0.0",
+  "description": "An insecure session management application using Node.js",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon apiv2.js"
+  },
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.2",
+    "express": "^4.17.1",
+    "express-session": "^1.17.2",
+    "nodemon": "^2.0.22"
+  }
+}
